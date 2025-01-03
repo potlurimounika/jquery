@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="file://c:/internship/jquery/jquery-3.7.1.js"></script>
+    <script>
+       $(document).ready(function(){
+        $("#hide").click(function(){
+            $("p").hide();
+        });
+        $("#show").click(function(){
+            $("p").show();
+       });
+    });
+</script>
+</head>
+<body>
+    <p>
+        <b>this is a little poem:</b><br>
+        twinkle,twinkle,little star<br>
+        how i wonder what you are</p>
+        <button id="hide">Hide</button>  
+    <button id="show">Show</button>
+</body>
+</html>
