@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="file://c:/internship/jquery/jquery-3.7.1.js"></script>
+    <script>
+       $(document).ready(function(){
+        $("button").click(function(){
+        $("#div1").delay("slow").fadeIn();
+       });
+    });
+</script>
+</head>
+<body>
+    <button>Click Me</button><br>
+    <div id="div1" style="width:90px;height:90px;display:none;background-color: black;">
+    </div><br>
+</body>
+</html>
