@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <script src="file://c:/internship/jquery/jquery-3.7.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    alert("background-color:"+$("p").css("background-color"));
+                });
+            });
+        </script>
+        </head>
+        <body>
+            <h2>this is a heading</h2>
+            <p style="background-color:#ff0000">the background-color of this paragraph is red.</p>
+            <button>Click</button>
+</body>
+</html>
