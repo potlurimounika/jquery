@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span
+        {
+            display:none;
+        }
+    </style>
+        <script src="file://c:/internship/jquery/jquery-3.7.1.js"></script>
+        </head>
+        <body>
+            <p><input type="text"><span>Focus starts.write your name.</span></p>
+            <p><input type="password"><span>Focus starts.write your password.</span></p>
+            <script>
+                $("input").focus(function(){
+                    $(this).next("span").css("display","inline").fadeOut(2000);
+                });
+            </script>
+</body>
+</html>
