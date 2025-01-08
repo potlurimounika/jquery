@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="file://c:/internship/jquery/jquery-3.7.1.js"></script>
+     <script>
+        $(document).ready(function(){
+            $("p").hover(function(){
+                $("this").css("background-color","violet");
+            },function(){
+                $(this).css("background-color","green");
+            });
+        });
+    </script>
+    </head>
+        <body>
+           <p>Hover your mouse pointer on me!</p>
+</body>
+</html>

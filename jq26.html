@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p
+        {
+            color:red;
+        }
+        div
+        {
+            color:blue;
+        }
+    </style>
+    <p></p>
+    <select id="single">
+        <option>single</option>
+        <option>double</option>
+        <option>triple</option>
+    </select>
+        <script src="file://c:/internship/jquery/jquery-3.7.1.js"></script>
+        </head>
+        <body>
+            <script>
+                function displayVals(){
+                    var singlevalues=$("#single").val();
+                    $("p").html("<b>values:</b>"+singlevalues);
+                }
+                $("select").change(displayVals);
+                displayVals();
+            </script>
+</body>
+</html>
