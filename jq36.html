@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="file://c:/internship/jquery/jquery-3.7.1.js"></script>
+     <script>
+        $(document).ready(function(){
+            $("p").mouseover(function(){
+                $("p").css("background-color","lightgreen");
+            });
+            $("p").mouseout(function(){
+                $("p").css("background-color","orange");
+            })
+        });
+    </script>
+    </head>
+        <body>
+           <p>move your cursor over this paragraph</p>
+           <div></div>
+</body>
+</html>
